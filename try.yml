@@ -1,0 +1,9 @@
+name: code
+ on:
+    push:
+
+    jobs:
+      code-checker:
+         runs-on: ubuntu-latest
+          steps:
+         
